@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 const generateLicenseBadge = license => {
   return license !== 'None' ? `![License](https://img.shields.io/badge/license-${license}-blue.svg)` : '';
 };
@@ -42,6 +43,12 @@ const generateMarkdown = data => {
   return `
 # ${data.title}
 
+=======
+const generateMarkdown = data => {
+  return `
+# ${data.title}
+
+>>>>>>> f4e6990fce4961d36e1280e5c72bd0ed1c9edcca
 
 # Description
 ${data.description}
@@ -71,6 +78,9 @@ ${data.contributing}
 ${data.tests}
 
 # Questions
+<<<<<<< HEAD
+>>>>>>> f4e6990fce4961d36e1280e5c72bd0ed1c9edcca
+=======
 >>>>>>> f4e6990fce4961d36e1280e5c72bd0ed1c9edcca
 For questions about the project, feel free to contact me via my [GitHub profile](https://github.com/${data.github}) or via email at ${data.email}.
 `;
